@@ -51,8 +51,6 @@ TuneTalk/	Root directory of the project
 │ └── package.json	Frontend dependencies and scripts
 ├── README.md	Project documentation
 └── package.json	Backend dependencies and scripts
-
-
 │
 ├── README.md
 └── package.json
