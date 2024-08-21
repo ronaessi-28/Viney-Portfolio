@@ -5,64 +5,6 @@ Portfolio showcasing projects, including TuneTalk.
 ### Project Overview
 TuneTalk is a platform designed to enhance music discovery through personalized recommendations and social interaction.
 
-### Project Root Structure
-TuneTalk/
-│
-├── backend/               # Backend (Node.js + Express) files
-│   ├── controllers/       # Controllers for handling requests
-│   ├── models/            # Database models (Mongoose)
-│   ├── routes/            # API routes
-│   ├── config/            # Configuration files (e.g., database connection)
-│   ├── middleware/        # Custom middleware (e.g., authentication)
-│   ├── utils/             # Utility functions
-│   ├── server.js          # Main server file
-│   └── .env               # Environment variables
-│
-├── frontend/              # Frontend (React) files
-│   ├── public/            # Public files (e.g., index.html)
-│   ├── src/               # Source files for React
-│   │   ├── components/    # Reusable React components
-│   │   ├── pages/         # React pages
-│   │   ├── assets/        # Static assets (e.g., images, icons)
-│   │   ├── context/       # Context API for global state management
-│   │   ├── App.js         # Main React component
-│   │   ├── index.js       # Entry point for React
-│   │   └── App.css        # Global CSS
-│   └── package.json       # Frontend dependencies and scripts
-│
-├── README.md              # Project documentation
-└── package.json           # Backend dependencies and scripts
-
-
-Backend Structure:
-
-
-backend/
-│
-├── controllers/
-│   └── userController.js    # Example: Handles user-related logic
-│
-├── models/
-│   └── User.js              # Example: Mongoose schema for users
-│
-├── routes/
-│   └── userRoutes.js        # Example: Routes for user-related API endpoints
-│
-├── config/
-│   └── db.js                # Database connection logic
-│
-├── middleware/
-│   └── authMiddleware.js    # Example: Middleware for authentication
-│
-├── utils/
-│   └── errorHandler.js      # Example: Utility function for error handling
-│
-├── server.js                # Entry point for the backend
-└── .env                     # Environment variables (e.g., database URI)
-
-
-
-
 ### Problem Statement
 The platform addresses the challenge of users struggling to discover new music tailored to their unique tastes.
 
