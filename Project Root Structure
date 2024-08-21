@@ -23,6 +23,36 @@ TuneTalk
 │       ├── index.js
 │       └── App.css
 │   └── package.json
+
+
+
+
+Directory/File	Description
+TuneTalk/	Root directory of the project
+├── backend/	Backend (Node.js + Express) files
+│ ├── controllers/	Controllers for handling requests
+│ ├── models/	Database models (Mongoose)
+│ ├── routes/	API routes
+│ ├── config/	Configuration files (e.g., database connection)
+│ ├── middleware/	Custom middleware (e.g., authentication)
+│ ├── utils/	Utility functions
+│ ├── server.js	Main server file
+│ └── .env	Environment variables
+├── frontend/	Frontend (React) files
+│ ├── public/	Public files (e.g., index.html)
+│ ├── src/	Source files for React
+│ │ ├── components/	Reusable React components
+│ │ ├── pages/	React pages
+│ │ ├── assets/	Static assets (e.g., images, icons)
+│ │ ├── context/	Context API for global state management
+│ │ ├── App.js	Main React component
+│ │ ├── index.js	Entry point for React
+│ │ └── App.css	Global CSS
+│ └── package.json	Frontend dependencies and scripts
+├── README.md	Project documentation
+└── package.json	Backend dependencies and scripts
+
+
 │
 ├── README.md
 └── package.json
