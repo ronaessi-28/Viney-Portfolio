@@ -93,9 +93,11 @@ cd Viney-Portfolio
 Navigate to the Backend Directory:
 
 cd backend
+
 Install Backend Dependencies:
 
 npm install
+
 Configure Environment Variables:
 
 Create a .env file in the backend/ directory if it doesn't already exist.
@@ -109,31 +111,44 @@ Start the Backend Server:
 npm start
 
 If you're using nodemon for development:
+
 npm run dev
-This will start the backend server, typically running on http://localhost:5000.
+This will start the backend server, typically running on 
+
+http://localhost:5000.
 
 4. Set Up the Frontend
+
 Navigate to the Frontend Directory:
 
 cd ../frontend
+
 Install Frontend Dependencies:
 
 npm install
+
 Start the Frontend Development Server:
 
 npm start
+
 This will start the frontend server, usually running on http://localhost:3000.
 
 5. Verify Everything Is Working
+
 Backend: Open your browser or use tools like Postman to test the backend API endpoints. For example, you can visit http://localhost:5000/api/users to ensure the API is working.
 
 Frontend: Open your browser and go to http://localhost:3000 to check if the React frontend is loading correctly and interacting with the backend.
 
 6. Additional Tips
-Concurrent Development: If you want to run both servers simultaneously from the root directory, you can use a package like concurrently to manage both processes. Install concurrently in the root directory and create a script in the root package.json:
+
+Concurrent Development: 
+
+If you want to run both servers simultaneously from the root directory, you can use a package like concurrently to manage both processes. Install concurrently in the root directory and create a script in the root package.json:
 
 cd ..
+
 npm install concurrently --save-dev
+
 Add the following to the root package.json:
 
 json
@@ -142,8 +157,11 @@ json
   "start:backend": "cd backend && npm start",
   "start:frontend": "cd frontend && npm start"
 }
+
 Then run:
+
 npm start
+
 Database Seeding: If your project includes database seeding scripts, make sure to run them after setting up your backend.
 
 Deployment: For deploying your project, you’ll need to configure deployment services (e.g., Heroku, Vercel, Netlify) and set up build processes and environment variables accordingly.
