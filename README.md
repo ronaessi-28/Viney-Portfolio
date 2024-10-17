@@ -1,7 +1,7 @@
 # Viney-Portfolio
 Portfolio showcasing projects, including TuneTalk.
 
-## TuneTalk: Revolutionizing Music Discovery
+## TuneTalk: Revolutionizing Music Discovery  
 ### Project Overview
 TuneTalk is a platform designed to enhance music discovery through personalized recommendations and social interaction.
 
