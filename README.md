@@ -7,7 +7,7 @@ TuneTalk is a platform designed to enhance music discovery through personalized 
 
 ### Problem Statement
 The platform addresses the challenge of users struggling to discover new music tailored to their unique tastes.
-
+  
 ### Solution
 - **Personalized Playlists:** Based on user activity and preferences.     
 - **Social Sharing:** Discover music through friends.
